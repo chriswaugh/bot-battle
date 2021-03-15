@@ -1,0 +1,23 @@
+{
+  "name": "bot-battle",
+  "version": "1.0.0",
+  "description": "A battle UI for RPSDW bot battles",
+  "engines": {
+    "node": "14.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js",
+    "start:prod": "node ./index.js",
+    "test": "jest"
+  },
+  "author": "Chris Waugh",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "^20.1.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7"
+  }
+}
